@@ -1,0 +1,42 @@
+INSERT INTO USERDATA(EMAIL,PASSWORD,FNAME,LNAME,USERTYPE, ISDISABLED, ADDRESSLINEONE, ADDRESSLINETWO,COUNTY,COUNTRY,POSTALCODE)
+VALUES('admin@admin.com','mypassword','Mary', 'O Sullivan','ADMIN', false, '13 Main Street', 'Killarney', 'Kerry', 'Ireland', 'V09S786');
+
+INSERT INTO USERDATA(EMAIL,PASSWORD,FNAME,LNAME,USERTYPE, ISDISABLED, ADDRESSLINEONE, ADDRESSLINETWO,COUNTY,COUNTRY,POSTALCODE)
+VALUES('user@user.com','user','Terry', 'Jones','GENUSER', false,  '13 Main Street', 'Killarney', 'Kerry', 'Ireland', 'V09S786');
+
+INSERT INTO USERDATA(EMAIL,PASSWORD,FNAME,LNAME,USERTYPE, ISDISABLED, ADDRESSLINEONE, ADDRESSLINETWO,COUNTY,COUNTRY,POSTALCODE)
+VALUES('user2@user.com','user','Cian', 'Lynch','GENUSER', true,  '13 Main Street', 'Killarney', 'Kerry', 'Ireland', 'V09S786');
+
+INSERT INTO PRODUCT(NAME, DESCRIPTION, TYPE, PRICE, STOCK, AGESUITABILITY, IMAGE) 
+VALUES('Teddy Bear Brown', 'This is the softest teddy bear for you baby. They be sure to love it', 'ANIMAL', 20.99, 0, '6 mts', 'images/bear-product-1.jpg');
+
+INSERT INTO PRODUCT(NAME, DESCRIPTION, TYPE, PRICE, STOCK, AGESUITABILITY, IMAGE) 
+VALUES('Beige Bear Interactive', 'This is the softest teddy bear for you baby. They be sure to love it','INTERACTIVE', 25.99, 5, '6 mts', 'images/interactive-toy-1.jpg');
+
+INSERT INTO PRODUCT(NAME, DESCRIPTION, TYPE, PRICE, STOCK, AGESUITABILITY, IMAGE) 
+VALUES('Glow Bear', 'This is the softest teddy bear for you baby. They be sure to love it', 'INTERACTIVE', 13.99, 15, '6 mts', 'images/interactive-toy-2.jpg');
+
+INSERT INTO PRODUCT(NAME, DESCRIPTION, TYPE, PRICE, STOCK, AGESUITABILITY, IMAGE) 
+VALUES('Snow Leopard', 'This is the softest teddy bear for you baby. They be sure to love it', 'ANIMAL', 12.99, 15, '6 mts', 'images/soft-animal-2.jpg');
+
+INSERT INTO PRODUCT(NAME, DESCRIPTION, TYPE, PRICE, STOCK, AGESUITABILITY, IMAGE) 
+VALUES('Purple Bear', 'This is the softest teddy bear for you baby. They be sure to love it', 'INTERACTIVE', 13.99, 15, '6 mts', 'images/interactive-toy-3.jpg');
+
+
+INSERT INTO PRODUCT(NAME, DESCRIPTION, TYPE, PRICE, STOCK, AGESUITABILITY, IMAGE) 
+VALUES('Wonder Dog', 'This is the softest teddy bear for you baby. They be sure to love it', 'ANIMAL', 14.99, 15, '6 mts', 'images/soft-animal-3.jpg');
+
+INSERT INTO PRODUCT(NAME, DESCRIPTION, TYPE, PRICE, STOCK, AGESUITABILITY, IMAGE) 
+VALUES( 'Lex The Lion Cub', 'This is the softest teddy bear for you baby. They be sure to love it', 'ANIMAL', 11.99, 15, '6 mts', 'images/soft-animal-4.jpg');
+
+INSERT INTO PRODUCT(NAME, DESCRIPTION, TYPE, PRICE, STOCK, AGESUITABILITY, IMAGE) 
+VALUES( 'Friendship Doll', 'This is the softest teddy bear for you baby. They be sure to love it','DOLL', 9.99, 15, '6 mts', 'images/soft-doll-1.jpg');
+
+INSERT INTO PRODUCT(NAME, DESCRIPTION, TYPE, PRICE, STOCK, AGESUITABILITY, IMAGE) 
+VALUES('The Dolly Bunch', 'This is the softest teddy bear for you baby. They be sure to love it','DOLL', 13.99, 15, '6 mts', 'images/soft-doll-2.jpg');
+
+INSERT INTO PRODUCT(NAME, DESCRIPTION, TYPE, PRICE, STOCK, AGESUITABILITY, IMAGE) 
+VALUES( 'Mr. Tumble', 'This is the softest teddy bear for you baby. They be sure to love it','DOLL',12.99, 15, '6 mts', 'images/soft-doll-3.jpg');
+
+INSERT INTO PRODUCT(NAME, DESCRIPTION, TYPE, PRICE, STOCK, AGESUITABILITY, IMAGE) 
+VALUES('Dumbo Grey', 'This is the softest teddy bear for you baby. They be sure to love it', 'ANIMAL', 20.99, 15, '6 mts', 'images/soft-animal-5-l.jpg');

@@ -1,0 +1,388 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+.container {
+  max-width: 1200px;
+}
+
+.container h2 {
+  color : #4c5478
+}
+
+.container-narrow{
+  max-width: 650px;
+}
+
+.form-full-span{
+  width:100%;
+}
+.body-nav-buffer{
+  margin-top: 5em;
+}
+.bg{
+    background-color: #fff7ed;
+}
+
+.ul-default{
+  list-style-type: none;
+}
+
+.link-default{
+  color: #fffefb;
+  text-decoration: none;
+}
+
+.full-span{
+  width:100%;
+}
+
+hr {
+  width:100%;
+  border: 0.5px solid #4c5478;
+}
+
+.navbar-default {
+    background-color: #4c5478;
+    border-color: #4c5478;
+    color:  #fffefb;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: #fffefb ; 
+    border-color: #4c5478;
+    
+}
+
+.nav-right{
+float: right
+}
+
+.navbar-nav a:hover i{
+  font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+.dropdown-menu a:hover{
+    color: #fffefb;
+  background-color:  #4c5478;
+} 
+.dropdown-menu a:active {
+  color: #4c5478;
+  background-color:  #fffefb;
+}
+
+.homeImage .img-responsive {
+margin: auto;
+}
+
+.img-wrapper {
+    position: relative;
+    width: 100%;
+   }
+  
+  .img-overlay {
+    position: absolute;
+    top: 70%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .img-overlay:before {
+    content: ' ';
+    display: block;
+    /* adjust 'height' to position overlay content vertically */
+    height: 33%;
+  }
+
+  .center{
+    justify-content:center;
+  }
+
+ .btn-default {
+    background-color: #fffefb; 
+    border-color:#4c5478 ;
+}
+
+.btn-contrast {
+  background-color: #4c5478; 
+    border-color:#4c5478 ;
+    color: white;
+}
+
+.card-product{
+    background-color: #fffefb;
+    border-color: #4c5478;
+     /*min-width:33.33%;*/
+   /*max-height: 10%;*/
+
+}
+
+.card-product a{
+    color: #4c5478;
+}
+
+.card-product a:hover{
+   text-decoration: none;
+}
+.card-product a:hover h5{
+    color: #4c5478;
+    font-size:22px;
+	-webkit-transition: .15s all ease;
+	-moz-transition: .15s all ease;
+	transition: .15s all ease;
+     
+}
+
+.card-product-img{
+  width:20%;
+}
+
+.card-img{
+  width:100%;
+}
+
+.top-buffer { 
+  margin-top:2em;
+}
+
+/* .col-margin{
+  padding: 5px;
+} 
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 10%;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 90%;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100%;
+}
+
+
+/* main CONTENT
+-------------------------------------------------- */
+.main h2{
+  margin-bottom: 1em;
+}
+/* Center align the text within the three columns below the carousel */
+.main .col-md-4 {
+  width: 100%;
+  margin:auto;
+  display:block;
+}
+
+.main .col-md-4 p {
+  text-align: center;
+}
+
+.main .col-md-4 h4 {
+  text-align: center;
+}
+
+.main .col-md-4 a {
+  margin:auto;
+  display:block;
+  background-color: #fffefb; 
+  border-color:black ;
+}
+
+/*Footer Content
+---------------------------------------------------------*/
+.footer{
+    margin-top: 2em;
+    background-color: #4c5478;
+    color: #fffefb;
+    /* width: 100%;
+    display:block; */
+    /* margin:auto; */
+}
+
+
+.footer a{
+  color: #fffefb;
+  text-decoration: none;
+}
+
+.icon{
+  color: #fffefb;
+}
+
+/* Footer */
+.footer ul.social li{
+	padding: 3px 0;
+}
+.footer ul.social li a i {
+    /* margin-right: 5px; */
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+.footer ul.social li:hover a i {
+	font-size:30px;
+	/* margin-top:-10px; */
+}
+
+.footer ul.social li a:hover{
+	color:#eeeeee;
+}
+
+/*----Product Details----*/
+
+.accordion-header{
+  background-color: #fff7eeed;
+  color:black;
+  border-color: #fff7eeed;
+}
+
+
+/*https://bootsnipp.com/snippets/rlXdE*/
+
+
+/* SHOP CSS */
+.filter-sort-panel{
+  border-color: #4c5478;
+  border-style: none none solid none;
+  border-width: thin;
+  display: none;
+  background-color: #fff7eeed;
+}
+
+.filter-sort-link {
+  padding-right: 1em;
+  background-color: #fff7eeed;
+  font-size: 1em;
+  font-weight:bold;
+  color:  #4c5478;
+  cursor: pointer;
+}
+
+label { 
+  color:  #4c5478;
+ }
+
+ .card-img-size{
+  width: 15em;
+  height: 15em;
+ }
+
+
+
+.carousel-inner a:hover{
+  color:  #4c5478;
+  background-color: #fffefb; 
+  border-color: #4c5478 ;
+}
+
+.pagination a:hover{
+  color:  #fffefb;
+  background-color: #4c5478; 
+  border-color: #4c5478 ;
+}
+
+.container .row a{
+  max-width: 400px;
+}
+
+/* Product CSS */
+.product-panel{
+  
+  display: none;
+  background-color: #fff7eeed;
+}
+
+/* CART CSS */
+.table a:hover i{
+  font-size:15px;
+	-webkit-transition: .25s all ease;
+	-moz-transition: .25s all ease;
+	transition: .25s all ease;
+}
+
+.table a:hover {
+  text-decoration: none;
+}/*
+
+/* Pagination */
+.pagination a{
+  color: #4c5478
+}
+
+.card-default a:hover{
+    color: #fffefb;
+    background-color:  #4c5478;
+    border-color: #4c5478;
+}
+
+.card-contrast a:hover{
+    color: #fffefb;
+    background-color:  #4c5478;
+    border-color: #4c5478;
+}
+
+.card-product button:hover{
+    color: white;
+    background-color:  #4c5478;
+    border-color: #4c5478;
+}
+
+.index a:hover{
+    color: white;
+    background-color:  #4c5478;
+    border-color: #4c5478;
+}
+
+.card-product button{
+    background-color: white;
+    color: #4c5478;
+    border-color: #4c5478;
+}
+
+.main-product{
+    /*border-radius: 8px;*/
+    border-color: #4c5478;
+}
+
+.filter-btn-active{
+    background-color: #4c5478;
+    color: white;
+    border-color: #4c5478;
+    /*font-size: .75em;*/
+}
+
+#myBtnContainer a:hover{
+    background-color: #fffefb;
+    color: #4c5478;
+    border-color: #4c5478;  
+}
+
+/*Cart*/
+ #btn-default a:hover , #btn-default button:hover{
+    background-color: #4c5478;
+    color: white;
+    border-color: #4c5478;
+}
+
+#btn-contrast button:hover, #btn-contrast a:hover{
+    background-color: #fffefb;
+    color: #4c5478;
+    border-color: #4c5478;
+}
